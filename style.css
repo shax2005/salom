@@ -1,0 +1,204 @@
+и*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+:root{
+    --green: #02897A;
+    --dark: #173A56;
+}
+
+/*  
+
+    GLOBAL CSS
+
+*/
+
+h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color:  #22343D;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 40px;
+    color: var(--dark);
+    line-height: 60px;
+}
+
+p{
+    font-size: 18px;
+    color: var(--dark);
+    font-weight: normal;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn_white{
+    padding: 10px 22px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    background: transparent;
+    font-weight: 600;
+    color: var(--dark);
+    cursor: pointer;
+}
+.btn_green{
+    padding: 10px 22px;
+    border-radius: 4px;
+    background: transparent;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    background: var(--green);
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* 
+
+    Main CSS
+
+*/
+
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo h1{
+    margin-left: 16px;
+    color: var(--dark);
+    font-size: 30px;
+}
+
+.collection{
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.collection_item a{
+    color: var(--dark);
+}
+
+.btns_nav{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.banner{
+    display: flex;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.banner_text,
+.banner_img{
+    width: 50%;
+    display: flex;
+}
+.banner_img{
+    background: url('./img/amico.svg') no-repeat center/contain;
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.h1{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.rasm{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: url(./img/Bg.png) no-repeat center/contain;
+}
+
+.box{
+    position: relative;
+    margin-top: 30px;
+    width: 33%;
+    height: 250px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.p{
+    margin-top: 13px;
+}
+
+.box img{
+    width: 50px;
+    height: 50px;
+}
+
+.child img{
+    width: 16px;
+    height: 19px;
+    position: absolute;
+    left: 19px;
+    top: 20px;
+}
+
+.banner_imgs{
+    width: 100%;
+    height: 550px;
+    background: url(./img/amicos.svg) no-repeat center/contain;
+}
+
+.banner_imgm{
+    margin-top: 200px;
+    width: 50%;
+    height: 550px;
+    background: url(./img/gulchapchap.svg) no-repeat center/contain;
+}
+
+.text{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+
+.text img{
+    margin-right: 20px;
+}
